@@ -28,12 +28,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This project emulates a file manager, it allows four basic operations:
+This project emulates a file manager, the python script can perform four basic operations:
 
 * Create a directory
 * Move a directory to another directory
 * Delete a directory
-* List all directories available
+* List all directories
 
 All operations are executed starting at the base directory or "home" which doesn't have a name.
 
@@ -72,7 +72,7 @@ To run the script open a terminal, go to the directory where this repo was clone
    ```sh
    python challenge.py <input-file>
    ```
-Replace the placeholder "<input-file>" with the full path to the file you desire to use as input. If no path is provided the script will try to use the default file included in this repo.
+Replace \<input-file> with the full path to the file you desire to use as input. If no path is provided the script will try to use the default file included in this repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
