@@ -1,6 +1,5 @@
 <a name="readme-top"></a>
 
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <br />
 
@@ -19,7 +18,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -79,12 +77,5 @@ to use the file input.txt included in this repo.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-## Contact
-
-Arturo Gomez - agomdia@gmail.com
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/agodi
