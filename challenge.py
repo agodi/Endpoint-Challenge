@@ -117,8 +117,11 @@ def move_directory(root, source_path, destination_path):
         if current.has_child(next_dir):
             current = current.get_child(next_dir)
             if len(tokens) == 0:
-                current.add_child_node(source)
-                source_parent.remove_child(source.name)
+                if not current.has_child(source.name):
+                    current.add_child_node(source)
+                    source_parent.remove_child(source.name)
+                else:
+                    print('Cannot move {} to {}, there is already another directory with the same name'.format(source_path, destination_path))
         else:
             print('Cannot move {} - {} does not exist'.format(destination_path, '/'.join(traversed)))
             break
@@ -138,7 +141,10 @@ def create_directory(root, path):
                 print('Cannot create {} - {} does not exist'.format(path, '/'.join(traversed)))
                 break
         else:
-            current.add_child(next_dir)
+            if current.has_child(next_dir):
+                print('Cannot create {}, directory already exists'.format(path))
+            else:
+                current.add_child(next_dir)
 
 
 def list_directories(base_dir):
