@@ -43,7 +43,8 @@ The sequence of operations to perform are read from an input file. Operations ar
 * MOVE \<directory to move> \<destination directory>
 * DELETE \<directory to remove>
 
-CREATE, MOVE and DELETE operations require the full path to the directories.
+CREATE, MOVE and DELETE operations require the full path to the directories, there can't be multiple directories with the same 
+name within another directory.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -72,7 +73,8 @@ To run the script open a terminal, go to the directory where this repo was clone
    ```sh
    python challenge.py <input-file>
    ```
-Replace \<input-file> with the full path to the file you desire to use as input. If no path is provided the script will try to use the default file included in this repo.
+Replace \<input-file> with the full path to the file you desire to use as input. If no path is provided the script will try 
+to use the file input.txt included in this repo.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
